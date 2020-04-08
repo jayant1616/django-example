@@ -1,0 +1,24 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>testing for templates</title>
+  </head>
+  <body>
+    <h1>
+      for testing the templates concept
+    </h1>
+    <table>
+
+
+    {%for check in users %}
+    <tr>
+      <td>{{check.topic_name}}</td>
+      <td>{{check.topic_date}}</td>
+    {% endfor %}
+    </table>
+
+
+
+  </body>
+</html>
